@@ -2,6 +2,10 @@
     <form method="POST" action="{{ route('register') }}">
         @csrf
 
+        @if (session('message'))
+            <x-input-error :messages="session('message')" class="mt-2" />
+        @endif
+
         <!-- Name -->
         <div>
             <x-input-label for="name" :value="__('Name')" />
@@ -14,6 +18,12 @@
             <x-input-label for="email" :value="__('Email')" />
             <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
             <x-input-error :messages="$errors->get('email')" class="mt-2" />
+        </div>
+
+        <div class="mt-4">
+            <x-input-label for="steam_id" :value="__('SteamID')" />
+            <x-text-input id="steam_id" class="block mt-1 w-full" type="text" name="steam_id" :value="old('steam_id')" required autocomplete="SteamID" />
+            <x-input-error :messages="$errors->get('steam_id')" class="mt-2" />
         </div>
 
         <!-- Password -->

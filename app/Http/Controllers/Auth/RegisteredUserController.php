@@ -33,12 +33,18 @@ class RegisteredUserController extends Controller
         $request->validate([
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:'.User::class],
+            'steam_id' => ['required', 'numeric', 'unique:'.User::class],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
         ]);
+
+        if(strlen((string)$request->steam_id) != 17){
+            return back()->with('message', 'Invalid SteamID format');
+        }
 
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
+            'steam_id' => $request->steam_id,
             'password' => Hash::make($request->password),
         ]);
 
