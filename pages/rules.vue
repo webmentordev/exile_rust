@@ -7,6 +7,7 @@
                 <p class="mb-6">Compliance with the mentioned rules is imperative, and it is crucial to be aware that some offenses cannot be appealed. Therefore, it is important to exercise caution and attentiveness to ensure adherence to the rules.</p>
                 <ul class="rules">
                     <li>No cheating or exploiting game bugs.</li>
+                    <li>Maximum 3 Players Teamsize (inc. Sleepers).</li>
                     <li>No hacking or use of third-party programs to gain an unfair advantage.</li>
                     <li>No spamming or excessive use of offensive language in chat.</li>
                     <li>No sharing personal information of other players.</li>
@@ -21,3 +22,14 @@
         </div>
     </section>
 </template>
+
+<script script>
+    useSeoMeta({
+        title: "Rules — Exlie Rust",
+        ogTitle: 'Rules — Exlie Rust',
+        description: 'Carefully read the rules of Exile rust servers. Make sure to follow our rules otherwise you will be banned.',
+        ogDescription: 'Carefully read the rules of Exile rust servers. Make sure to follow our rules otherwise you will be banned.',
+        ogImage: 'https://cdn.discordapp.com/attachments/1129278239358062592/1129396420202463252/background_exfil.png',
+        twitterCard: 'summary_large_image',
+    });
+</script>

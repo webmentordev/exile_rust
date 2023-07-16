@@ -8,7 +8,13 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
-      title: "Exile Rust Server",
+      title: "Exlie Rust — Official Website",
+      meta: [
+        {
+          name: "description",
+          content: "Welcome to Exile Rust official website. Get all Exile servers connection information here."
+        }
+      ],
       link: [
         {
           rel: "shortcut icon",
