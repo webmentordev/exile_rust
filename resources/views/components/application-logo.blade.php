@@ -1,1 +1,0 @@
-<img src="https://img1.wsimg.com/isteam/ip/caa70c6f-8908-4bf3-993a-e02df2001324/favicon/1f0ba2f3-ada4-4340-b79f-c86f08db5d4a.png/:/rs=w:300,h:300,m" width="45px" alt="">
