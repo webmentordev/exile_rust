@@ -7,12 +7,12 @@
             </NuxtLink>
             <ul class="flex items-center text-white/90 link mr-3">
                 <NuxtLink class="ml-7" to="/">Home</NuxtLink>
-                <NuxtLink class="ml-7" to="/#about">About</NuxtLink>
                 <NuxtLink class="ml-7" to="/staff">Staff</NuxtLink>
+                <NuxtLink class="ml-7" to="/servers">Servers</NuxtLink>
                 <NuxtLink class="ml-7" to="/wipe">Wipe</NuxtLink>
                 <NuxtLink class="ml-7" to="/rules">Rules</NuxtLink>
+                <NuxtLink class="ml-7" to="/discord">Discord</NuxtLink>
             </ul>
-
             <ul class="620:block hidden" @click="show = !show">
                 <li class="h-[1px] my-2 w-[60px] bg-white"></li>
                 <li class="h-[1px] my-2 w-[60px] bg-white"></li>
@@ -23,10 +23,11 @@
                     <h2 class="text-3xl mb-3 text-white">GamersRUs Servers</h2>
                     <ul class="text-start text-white flex flex-col w-full">
                         <NuxtLink class="py-6 border-b border-gray-600" to="/">Home</NuxtLink>
-                        <NuxtLink class="py-6 border-b border-gray-600" to="/#about">About</NuxtLink>
                         <NuxtLink class="py-6 border-b border-gray-600" to="/staff">Staff</NuxtLink>
+                        <NuxtLink class="py-6 border-b border-gray-600" to="/servers">Servers</NuxtLink>
                         <NuxtLink class="py-6 border-b border-gray-600" to="/wipe">Wipe</NuxtLink>
                         <NuxtLink class="py-6 border-b border-gray-600" to="/rules">Rules</NuxtLink>
+                        <NuxtLink class="py-6 border-b border-gray-600" to="/discord">Discord</NuxtLink>
                     </ul>
                 </div>
             </div>

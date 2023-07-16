@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     'nuxt-icon'
   ],
   app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       title: "Exile Rust Server",
       link: [
