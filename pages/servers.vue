@@ -14,12 +14,10 @@
                 <div class="p-3">
                     <h2 class="text-white mt-3 text-2xl">{{ server.name }}</h2>
                 </div>
-
-                <div class="bg-[#212529] overflow-hidden relative mb-2 flex items-center justify-center h-[33px] rounded-lg w-full">
+                <div class="bg-dark-100 overflow-hidden relative mb-2 flex items-center justify-center h-[33px] rounded-lg w-full">
                     <div class="absolute top-0 h-full left-0 bg-rust" :style="{ width: `${(server.players / server.maxPlayers) * 100}%` }"></div>
                     <p class="relative text-white text-sm font-semibold">{{ server.players }}/{{ server.maxPlayers }}</p>
                 </div>
-
                 <NuxtLink to="steam://connect/156.236.84.41:28076" class="link bg-main w-full text-center py-3 text-lg rounded-lg hover:text-white hover:bg-black transition-all" target="_blank" rel="nofollow">Connect</NuxtLink>
             </div>
         </div>
