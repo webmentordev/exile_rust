@@ -8,10 +8,10 @@
             <ul class="flex items-center text-white/90 link mr-3 640px:hidden">
                 <NuxtLink class="ml-7" to="/">Home</NuxtLink>
                 <NuxtLink class="ml-7" to="/staff">Staff</NuxtLink>
-                <NuxtLink class="ml-7" to="https://shop.exilerust.com/" target="_blank">Store</NuxtLink>
                 <NuxtLink class="ml-7" to="/servers">Servers</NuxtLink>
                 <NuxtLink class="ml-7" to="/wipe">Wipe</NuxtLink>
                 <NuxtLink class="ml-7" to="/rules">Rules</NuxtLink>
+                <NuxtLink class="ml-7" to="https://shop.exilerust.com/" target="_blank">Store</NuxtLink>
                 <NuxtLink class="ml-7" to="/discord">Discord</NuxtLink>
             </ul>
             <div class="640px:block hidden relative">
@@ -19,10 +19,10 @@
                 <ul class="absolute w-[200px] text-start right-0 top-9 rounded-lg text-white flex flex-col bg-dark p-6 link" v-if="show">
                     <NuxtLink class="pb-3 border-b border-dark-100" to="/">Home</NuxtLink>
                     <NuxtLink class="py-3 border-b border-dark-100" to="/staff">Staff</NuxtLink>
-                    <NuxtLink class="py-3 border-b border-dark-100" to="https://shop.exilerust.com/" target="_blank">Store</NuxtLink>
                     <NuxtLink class="py-3 border-b border-dark-100" to="/servers">Servers</NuxtLink>
                     <NuxtLink class="py-3 border-b border-dark-100" to="/wipe">Wipe</NuxtLink>
                     <NuxtLink class="py-3 border-b border-dark-100" to="/rules">Rules</NuxtLink>
+                    <NuxtLink class="py-3 border-b border-dark-100" to="https://shop.exilerust.com/" target="_blank">Store</NuxtLink>
                     <NuxtLink class="pt-3" to="/discord">Discord</NuxtLink>
                 </ul>
             </div>

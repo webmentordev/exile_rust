@@ -31,7 +31,7 @@
             </div>
             <div class="grid grid-cols-1 gap-12 text-white w-fit m-auto">
                 <div class="bg-black p-6 rounded-lg relative group">
-                    <span class="absolute top-2 rounded-sm font-semibold left-2 p-2 text-sm px-3 bg-rust">Admin</span>
+                    <span class="absolute top-2 rounded-sm font-semibold left-2 p-2 text-sm px-3 bg-rust">Owner</span>
                     <img class="mb-5 rounded-md group-hover:scale-125 transition-all" src="https://avatars.akamai.steamstatic.com/007222ccfe169cd0c3e9580b8d04ac2312572e53_full.jpg">
                     <div class="info">
                         <h2 class="text-center text-xl mb-3">Capalot</h2>

@@ -12,8 +12,6 @@
                     <li>No spamming or excessive use of offensive language in chat.</li>
                     <li>No sharing personal information of other players.</li>
                     <li>No scamming or attempting to deceive other players.</li>
-                    <li>No building in or near monument enterance or public areas.</li>
-                    <li>No trap bases, using glitch or peak gaps</li>
                     <li>No racist, sexist, or other discriminatory language or behavior.</li>
                     <li>No previous game bans in a year</li>
                     <li>Respect all players and staff members.</li>
