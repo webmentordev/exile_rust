@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full bg-center bg-cover h-screen relative" style="background-image: url('/rules.jpg');">
+    <section class="w-full bg-center bg-cover min-h-screen relative" style="background-image: url('/rules.jpg');">
         <div class="absolute top-0 left-0 h-full w-full bg-dark/60 backdrop-blur-sm"></div>
         <div class="relative z-10 max-w-3xl m-auto pt-[140px] px-4">
             <h1 class="text-5xl text-white text-center">SERVER RULES</h1>

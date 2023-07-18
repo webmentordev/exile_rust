@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full bg-center bg-cover h-screen relative flex items-center justify-center" style="background-image: url('/background.jpg');">
+    <section class="w-full bg-center bg-cover min-h-screen relative flex items-center justify-center" style="background-image: url('/background.jpg');">
         <div class="absolute top-0 left-0 h-full w-full bg-dark/60 backdrop-blur-sm"></div>
         <div class="relative z-10 px-4">
             <img src="/logo.webp" class="m-auto mb-6 max-w-[250px] 480px:max-w-[150px]" alt="Exile Logo">
